@@ -11,17 +11,38 @@ Scenario Features
 .. note::
     This package does not provide any scenario features
 
-.. todo add your features with .. autoclass
-    .. autoclass:: balderhub.waveformmonitor.lib.scenario_features.MyScenarioFeature
-        :members:
+.. autoclass:: balderhub.waveformmonitor.lib.scenario_features.WaveformMonitorFeature
+    :members:
 
+Instruments
+-----------
+
+.. autoclass:: balderhub.waveformmonitor.lib.scenario_features.WaveformMonitorInstrument
+    :members:
+
+.. autoclass:: balderhub.waveformmonitor.lib.scenario_features.WaveformMonitorInstrumentChannel
+    :members:
 
 Setup Features
 ==============
 
-.. note::
-    This package does not provide any setup features.
+Siglent-Devices
+---------------
 
-.. todo add your features with .. autoclass
-    .. autoclass:: balderhub.waveformmonitor.lib.setup_features.MySetupFeature
-        :members:
+.. autoclass:: balderhub.waveformmonitor.lib.setup_features.siglent.BaseSiglentSDSSeriesInstrument
+    :members:
+
+.. autoclass:: balderhub.waveformmonitor.lib.setup_features.siglent.SiglentSDS814xHDInstrument
+    :members:
+
+Channel Selection Features
+--------------------------
+
+.. autoclass:: balderhub.waveformmonitor.lib.setup_features.DirtyWaveformMonitorChannel
+    :members:
+
+.. autoclass:: balderhub.waveformmonitor.lib.setup_features.WaveformMonitorInstrumentChannel1
+    :members:
+
+.. autoclass:: balderhub.waveformmonitor.lib.setup_features.WaveformMonitorInstrumentChannel2
+    :members:

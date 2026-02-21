@@ -9,6 +9,6 @@ scenarios that are implemented in this BalderHub package.
     This BalderHub project doesn't have any scenarios.
 
 
-.. todo add your scenarios with .. autoclass
-    .. autoclass:: balderhub.waveformmonitor.scenarios.ScenarioMyTest
+..
+    .. autoclass:: balderhub.waveformmonitor.scenarios.ScenarioPlayAndRecord
         :members:
