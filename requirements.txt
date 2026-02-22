@@ -8,3 +8,4 @@ pylint==2.17.7
 balderhub-unit
 balderhub-scpi
 balderhub-waveform
+balderhub-waveformgenerator

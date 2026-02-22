@@ -5,10 +5,5 @@ Scenarios describe **what you need**. They define the tests and the necessary de
 scenarios that are implemented in this BalderHub package.
 
 
-.. note::
-    This BalderHub project doesn't have any scenarios.
-
-
-..
-    .. autoclass:: balderhub.waveformmonitor.scenarios.ScenarioPlayAndRecord
-        :members:
+.. autoclass:: balderhub.waveformmonitor.scenarios.ScenarioPlayAndRecord
+    :members:
